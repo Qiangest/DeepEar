@@ -32,14 +32,14 @@ Reverberant.7z: Audio data for the reverberant environment.
 
 1 X 48 vector. Please refer to our paper for more details.
 
-    [1]: binary sectors. [2]: AoA (0~1). [3-6]: one-hot distance
-    [7]: binary sectors. [8]: AoA (0~1). [9-12]: one-hot distance
-    [13]: binary sectors. [14]: AoA (0~1). [15-18]: one-hot distance
-    [19]: binary sectors. [20]: AoA (0~1). [21-24]: one-hot distance
-    [25]: binary sectors. [26]: AoA (0~1). [27-30]: one-hot distance
-    [31]: binary sectors. [32]: AoA (0~1). [33-36]: one-hot distance
-    [37]: binary sectors. [38]: AoA (0~1). [39-42]: one-hot distance
-    [43]: binary sectors. [44]: AoA (0~1). [45-48]: one-hot distance
+            [1]: binary sectors. [2]: AoA (0~1). [3-7]: one-hot distance
+            [8]: binary sectors. [9]: AoA (0~1). [10-14]: one-hot distance
+            [15]: binary sectors. [16]: AoA (0~1). [17-21]: one-hot distance
+            [22]: binary sectors. [23]: AoA (0~1). [24-28]: one-hot distance
+            [29]: binary sectors. [30]: AoA (0~1). [31-35]: one-hot distance
+            [36]: binary sectors. [37]: AoA (0~1). [38-42]: one-hot distance
+            [43]: binary sectors. [44]: AoA (0~1). [45-49]: one-hot distance
+            [50]: binary sectors. [51]: AoA (0~1). [52-56]: one-hot distance
 
 
 
