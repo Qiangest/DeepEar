@@ -2,21 +2,9 @@
 Dataset and demo code of DeepEar.
 
 
-## Binaural audio files
+## Training and Testing data
 
-Users can build their own project with below raw data ([download](https://connectpolyu-my.sharepoint.com/:f:/g/personal/19044952r_connect_polyu_hk/EoJJZQvE371Hn_e5UMgDfYYBgehcFqZXR90z2UDCnJM8jQ?e=cYAHTs)).
-
-```
-Anechoic.7z: Audio data for the anechoic environment. 
-|-----simulatedAudioTrain: audio for training.
-|     |--------label_1.mat: ground truth labels of audio with one sound source.    SourceVector: source number. Radius: source distance. Sector: source sector. AoA: source direction.
-|     |--------label_2.mat: ground truth labels of audio with two sound sources.
-|     |--------label_3.mat: ground truth labels of audio with three sound sources.
-|     |--------simulatedAudio_1_1500-1.wav: audio data. Sampling frequency: 16 KHz. Duration: 20s. Name: simulatedAudio_sourceNumber_numberOfFilesForThisSourceNumber-index.wav
-|-----simulatedAudioTest: audio for testing.
-
-Reverberant.7z: Audio data for the reverberant environment.
-```
+([Download](https://connectpolyu-my.sharepoint.com/:f:/g/personal/19044952r_connect_polyu_hk/EoJJZQvE371Hn_e5UMgDfYYBgehcFqZXR90z2UDCnJM8jQ?e=cYAHTs)) here.
 
 ## Files
 - DeepEar.py: Demo code of DeepEar.
@@ -30,7 +18,7 @@ Reverberant.7z: Audio data for the reverberant environment.
 
 ## Label format
 
-1 X 48 vector. Please refer to our paper for more details.
+1 X 56 vector. Please refer to our paper for more details.
 
             [1]: binary sectors. [2]: AoA (0~1). [3-7]: one-hot distance
             [8]: binary sectors. [9]: AoA (0~1). [10-14]: one-hot distance
