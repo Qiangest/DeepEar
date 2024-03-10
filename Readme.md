@@ -4,7 +4,7 @@ Dataset and demo code of DeepEar.
 
 ## Training and Testing data
 
-([Download](https://connectpolyu-my.sharepoint.com/:f:/g/personal/19044952r_connect_polyu_hk/EoJJZQvE371Hn_e5UMgDfYYBgehcFqZXR90z2UDCnJM8jQ?e=cYAHTs)) here.
+([Download](https://1drv.ms/f/s!AjdUxIYNIsoZhsxKWiZ6W8AoVTTivg?e=b0A0SU)) here.
 
 ## Files
 - DeepEar.py: Demo code of DeepEar.
