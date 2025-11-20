@@ -4,7 +4,7 @@ Dataset and demo code of DeepEar.
 
 ## Training and Testing data
 
-([Download](https://1drv.ms/f/s!AjdUxIYNIsoZhsxKWiZ6W8AoVTTivg?e=b0A0SU)) here.
+([Download](https://1drv.ms/f/c/19ca220d86c45437/IgA3VMSGDSLKIIAZSqYBAAAAAdzIy0yRv-1w1rcLWbCPYm0?e=ak6MXk)) here.
 
 ## Files
 - DeepEar.py: Demo code of DeepEar.
@@ -13,7 +13,7 @@ Dataset and demo code of DeepEar.
 - DeepEar_weights.h5: Pretrained model weights. 
 - TrainData.mat: Extracted features for training data.
   - Matlab v7.3 version file. 
-  - Four column are gammatone coefficients of left ear, right ear, cross-correlation, and ground truth labels. Please refer to our paper for more details.
+  - Four columns are gammatone coefficients of the left ear, right ear, cross-correlation, and ground truth labels. Please refer to our paper for more details.
 - TestData.mat: Extracted features for testing data.
 
 ## Label format
@@ -33,7 +33,7 @@ Dataset and demo code of DeepEar.
 
 ## Credits and License
 
-The dataset and code are provided by Qiang Yang under the guidance of Prof. Yuanqing Zheng of The Hong Kong Polytechnic University (PolyU). They are licensed under CC-BY-NC.
+The dataset and code are provided by Qiang Yang and Yuanqing Zheng of The Hong Kong Polytechnic University (PolyU). They are licensed under CC-BY-NC.
 
 
 For any questions, you may contact: qiang {dot} yang {at} connect {dot} polyu {dot} hk.
@@ -48,7 +48,19 @@ booktitle = {Proceedings of the International Conference on Computer Communicati
 year = {2022},
 publisher={IEEE}
 }
+
+@article{yang2022deepear,
+  title={Deepear: Sound localization with binaural microphones},
+  author={Yang, Qiang and Zheng, Yuanqing},
+  journal={IEEE Transactions on Mobile Computing},
+  volume={23},
+  number={1},
+  pages={359--375},
+  year={2022},
+  publisher={IEEE}
+}
 ```
 
  <img src="by-nc.png" width="15%">  
+
 
